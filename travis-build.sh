@@ -32,6 +32,10 @@ mv communicator/* .
 
 rm -rf communicator android_files LICENSE README.md
 
+sed -i 's+install(FILES org.maui.communicator.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})+install(FILES org.kde.communicator.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})+g' CMakeLists.txt
+
+sed -i 's+install(FILES org.maui.communicator.json DESTINATION /usr/share/maui-accounts/manifests)+install(FILES org.kde.communicator.json DESTINATION /usr/share/maui-accounts/manifests)+g' CMakeLists.txt
+
 ### Build Deb
 
 mkdir source
