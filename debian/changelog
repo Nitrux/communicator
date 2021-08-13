@@ -1,3 +1,9 @@
+communicator (0.0.3+2.0.0+git) nitrux; urgency=medium
+
+  * Bump version.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 13 Aug 2021 05:27:00 -0500
+
 communicator (0.0.2+2.0.0+git) nitrux; urgency=medium
 
   * Update package dependencies and fix description.
