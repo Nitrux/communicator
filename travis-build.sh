@@ -47,16 +47,16 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5people-dev \
 	libkf5service-dev \
 	libqt5svg5-dev \
-	mauikit \
-	mauikit-accounts \
-	mauikit-filebrowsing \
+	mauikit-git \
+	mauikit-accounts-git \
+	mauikit-filebrowsing-git \
 	qtbase5-dev \
 	qtdeclarative5-dev \
 	qtquickcontrols2-5-dev
 
 ### Clone repo.
 
-git clone --single-branch --branch v2.1 https://invent.kde.org/maui/communicator.git
+git clone --single-branch --branch master https://invent.kde.org/maui/communicator.git
 
 rm -rf communicator/{android_files,LICENSE,README.md}
 
@@ -108,7 +108,7 @@ checkinstall -D -y \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=index \
-	--requires="libc6,libkf5contacts5,libkf5coreaddons5,libkf5i18n5,libkf5people5,libkf5service5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libstdc++6,mauikit \(\>= 2.1.0\),qml-module-qt-labs-platform" \
+	--requires="libc6,libkf5contacts5,libkf5coreaddons5,libkf5i18n5,libkf5people5,libkf5service5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libstdc++6,mauikit-git \(\>= 2.1.1+git\),qml-module-qt-labs-platform" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
