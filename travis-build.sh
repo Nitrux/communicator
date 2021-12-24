@@ -98,8 +98,8 @@ make
 checkinstall -D -y \
 	--install=no \
 	--fstrans=yes \
-	--pkgname=communicator \
-	--pkgversion=2.1.0 \
+	--pkgname=communicator-git \
+	--pkgversion=2.1.1+git \
 	--pkgarch=amd64 \
 	--pkgrelease="1" \
 	--pkglicense=LGPL-3 \
