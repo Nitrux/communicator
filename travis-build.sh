@@ -107,7 +107,7 @@ checkinstall -D -y \
 	--pkgsource=communicator \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
-	--provides=index \
+	--provides=communicator \
 	--requires="libc6,libkf5contacts5,libkf5coreaddons5,libkf5i18n5,libkf5people5,libkf5service5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libstdc++6,mauikit-git \(\>= 2.1.1+git\),qml-module-qt-labs-platform" \
 	--nodoc \
 	--strip=no \
