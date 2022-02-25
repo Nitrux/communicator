@@ -56,7 +56,7 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 
 ### Clone repo.
 
-git clone --single-branch --branch master https://invent.kde.org/maui/communicator.git
+git clone --single-branch --branch v2.1 https://invent.kde.org/maui/communicator.git
 
 rm -rf communicator/{android_files,LICENSE,README.md}
 
