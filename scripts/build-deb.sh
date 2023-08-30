@@ -67,7 +67,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=communicator \
-	--requires="libc6,libkf5contacts5,libkf5coreaddons5,libkf5i18n5,libkf5kiocore5,libkf5people5,libkf5service5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5sql5,libqt5widgets5,mauikit-accounts-git \(\>= 3.0.0+git\),mauikit-filebrowsing-git \(\>= 3.0.0+git\),mauikit-git \(\>= 3.0.0+git\)" \
+	--requires="libc6,libkf5contacts5,libkf5coreaddons5,libkf5i18n5,libkf5kiocore5,libkf5people5,libkf5service5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5sql5,libqt5widgets5,mauikit-accounts-git \(\>= 3.0.1+git\),mauikit-filebrowsing-git \(\>= 3.0.1+git\),mauikit-git \(\>= 3.0.1+git\)" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
